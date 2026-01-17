@@ -18,6 +18,9 @@ results/*xlsx
 results/*xls
 results/*.catpart
 
+.project
+.pydevproject
+
 # Distribution / packaging
 .Python
 build/
