@@ -3,9 +3,9 @@ requires = ["flit_core >=3.2,<4","pydantic>=2.6.4","numpy>=1.26.4","py-jsonic>=0
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "repTemp
+name = "repTemp"
 authors = [{name = "LuTze"}]
-description = "template repo only"
+description = "YOUR_REPO_DESCRIPTION_HERE"
 readme = "README.md"
 license = {file = "LICENSE"}
 classifiers = ["License :: OSI Approved :: MIT License"]

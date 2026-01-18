@@ -1,0 +1,1 @@
+#core should include python scripts that are used within all workflows

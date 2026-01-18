@@ -1,7 +1,7 @@
 Introduction
 ============
 
-Describe the base premise of the project here.
+YOUR_REPO_DESCRIPTION_HERE
 
 User Requirements
 -----------------

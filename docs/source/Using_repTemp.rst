@@ -1,7 +1,7 @@
-UsingCompost
-============
+Using_repTemp
+=============
 
-This page provides instructions on how to use `your repo`
+This page provides instructions on how to use repTemp
 
 
 Installation

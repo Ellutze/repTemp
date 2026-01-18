@@ -1,7 +1,7 @@
 .. rename your repo here, created by
    sphinx-quickstart on Fri Dec 12 12:12:12 2024.
 
-Welcome to --insert name here-- documentation!
+Welcome to repTemp documentation!
 ==================================================================
 
 .. toctree::

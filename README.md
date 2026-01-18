@@ -1,5 +1,7 @@
 # repTest 1.0.0
 
+YOUR_REPO_DESCRIPTION_HERE
+
 .. code-block:: bash
 
     git clone https://github.com/Ellutze/repTemp
