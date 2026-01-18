@@ -9,7 +9,7 @@
 project = 'repTemp'
 copyright = '2026, LuTze'
 author = 'LuTze'
-release = '1.0.0'
+release = '1.1.0'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration

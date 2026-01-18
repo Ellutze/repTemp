@@ -49,7 +49,7 @@ for FILE in for_versions:
     with open("example.txt", "r", encoding="utf-8") as f:
         text = f.read()
     
-    text = text.replace("1.0.0","0.0.0")  # edit however you want
+    text = text.replace("1.1.0","0.0.0")  # edit however you want
     
     with open("example.txt", "w", encoding="utf-8") as f:
         f.write(text)   
