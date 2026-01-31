@@ -22,36 +22,36 @@ import os
 to_rename = ["README.md","pyproject.toml","docs/source/conf.py","docs/source/index.rst","docs/source/Using_repTemp.rst"]
 for FILE in to_rename:
     
-    with open("example.txt", "r", encoding="utf-8") as f:
+    with open(FILE, "r", encoding="utf-8") as f:
         text = f.read()
     
     text = text.replace("repTemp",name)  # edit however you want
     
-    with open("example.txt", "w", encoding="utf-8") as f:
+    with open(FILE, "w", encoding="utf-8") as f:
         f.write(text)
         
 for_description = ["README.md","pyproject.toml","docs/source/Introduction.rst"]
 
 for FILE in for_description:
     
-    with open("example.txt", "r", encoding="utf-8") as f:
+    with open(FILE, "r", encoding="utf-8") as f:
         text = f.read()
     
     text = text.replace("YOUR_REPO_DESCRIPTION_HERE",description)  # edit however you want
     
-    with open("example.txt", "w", encoding="utf-8") as f:
+    with open(FILE, "w", encoding="utf-8") as f:
         f.write(text)
         
 for_versions = [".bumpversion.cfg","pyproject.toml","README.md","docs/source/conf.py"]
 
 for FILE in for_versions:
     
-    with open("example.txt", "r", encoding="utf-8") as f:
+    with open(FILE, "r", encoding="utf-8") as f:
         text = f.read()
     
     text = text.replace("1.1.0","0.0.0")  # edit however you want
     
-    with open("example.txt", "w", encoding="utf-8") as f:
+    with open(FILE, "w", encoding="utf-8") as f:
         f.write(text)   
 
 #Rename the folder in src, will need to also change parent dir manually
